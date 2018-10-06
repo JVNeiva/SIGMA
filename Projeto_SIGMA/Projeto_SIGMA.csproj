@@ -374,6 +374,20 @@
     <None Include="Resources\icons8-verificar-todos-os-26.png" />
     <None Include="Resources\Logo2.png" />
     <None Include="Resources\Logo3.png" />
+    <None Include="Resources\icons8-banco-de-dados-48.png" />
+    <None Include="Resources\icons8-visualizar-arquivo-26.png" />
+    <None Include="Resources\icons8-fluxo-de-caixa-48.png" />
+    <None Include="Resources\icons8-comprar-48.png" />
+    <None Include="Resources\icons8-performance-de-vendas-40.png" />
+    <None Include="Resources\icons8-barato-2-16 %281%29.png" />
+    <None Include="Resources\icons8-caixa-40.png" />
+    <None Include="Resources\icons8-suporte-48.png" />
+    <None Include="Resources\icons8-carteira-48.png" />
+    <None Include="Resources\icons8-configurações-48.png" />
+    <None Include="Resources\icons8-cardápio-24.png" />
+    <None Include="Resources\icons8-página-inicial-24.png" />
+    <None Include="Resources\icons8-desligar-48.png" />
+    <None Include="Resources\icons8-unidade-organizacional-48.png" />
     <Content Include="SCRIPT.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
