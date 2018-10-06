@@ -1,0 +1,76 @@
+﻿=======VALIDAÇÃO DE RG=================
+
+string email = txtEmail.Text;
+ 
+Regex rg = new Regex(@"^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$");
+ 
+if (rg.IsMatch( email ) )
+{
+      Response.Write("Email Valido!");
+}
+else
+{
+      Response.Write("Email Inválido!");
+}
+
+
+========VALIDAÇÃO DE CNPJ===============
+
+public static class ValidaCNPJ
+	{
+		public static bool IsCnpj(string cnpj)
+		{
+			int[] multiplicador1 = new int[12] {5,4,3,2,9,8,7,6,5,4,3,2};
+			int[] multiplicador2 = new int[13] {6,5,4,3,2,9,8,7,6,5,4,3,2};
+			int soma;
+			int resto;
+			string digito;
+			string tempCnpj;
+			cnpj = cnpj.Trim();
+			cnpj = cnpj.Replace(".", "").Replace("-", "").Replace("/", "");
+			if (cnpj.Length != 14)
+			   return false;
+			tempCnpj = cnpj.Substring(0, 12);
+			soma = 0;
+			for(int i=0; i<12; i++)
+			   soma += int.Parse(tempCnpj[i].ToString()) * multiplicador1[i];
+			resto = (soma % 11);
+			if ( resto < 2)
+			   resto = 0;
+			else
+			   resto = 11 - resto;
+			digito = resto.ToString();
+			tempCnpj = tempCnpj + digito;
+			soma = 0;
+			for (int i = 0; i < 13; i++)
+			   soma += int.Parse(tempCnpj[i].ToString()) * multiplicador2[i];
+			resto = (soma % 11);
+			if (resto < 2)
+			    resto = 0;
+			else
+			   resto = 11 - resto;
+			digito = digito + resto.ToString();
+			return cnpj.EndsWith(digito);
+		}
+	}
+}
+
+
+==========VALIDAÇÃO DE NOME============
+
+public static string TratarNome(string nome)
+{
+    if (string.IsNullOrWhiteSpace(nome)) throw new ArgumentException("Um nome em branco foi passado.");
+
+    // Removendo caracteres em branco no ínicio e no final do nome:
+    nome = nome.Trim();
+
+    // Trocando dois ou mais espaços em branco consecutivos por apenas um:
+    nome = Regex.Replace(nome, "[ ]{2,}", " ", RegexOptions.Compiled);
+
+    // Verificando a ocorrência de caracteres inválidos no alfabeto português (do Brasil):
+    if (Regex.IsMatch(nome, "[^a-zA-ZáéíóúàâêôãõüçÁÉÍÓÚÀÂÊÔÃÕÜÇ ]", RegexOptions.Compiled)) throw new ArgumentException("Nome inválido: \"" + nome + "\".");
+
+    return nome;
+}
+

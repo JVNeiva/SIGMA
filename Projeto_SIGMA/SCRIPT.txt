@@ -1,0 +1,207 @@
+﻿-- DROP DATABASE SIGMA;
+CREATE SCHEMA IF NOT EXISTS `SIGMA` DEFAULT CHARACTER SET utf8 ;
+USE `SIGMA` ;
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_login`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_login` (
+  `id_login` INT NOT NULL AUTO_INCREMENT,
+  `nm_usuario` VARCHAR(20) NOT NULL UNIQUE,
+  `ds_senha` VARCHAR(45) NOT NULL,
+  `nm_completo` VARCHAR(50) NOT NULL,
+  `ds_email` VARCHAR(100) NOT NULL,
+  `pr_permissaoAdm` BOOL NOT NULL,
+  `pr_permissaoCadastrar` BOOL NOT NULL,
+  `pr_permissaoConsultar` BOOL NOT NULL,
+  `pr_permissaoOrcamento` BOOL NOT NULL,
+  `pr_permissaoPedido` BOOL NOT NULL,
+  PRIMARY KEY (`id_login`))
+ENGINE = InnoDB;
+
+SELECT * FROM tb_login;
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_cliente`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_cliente` (
+  `id_cliente` INT NOT NULL AUTO_INCREMENT,
+  `nm_cliente` VARCHAR(50) NOT NULL,
+  `ds_email` VARCHAR(100) NOT NULL,
+  `ds_cpf` VARCHAR(15) NOT NULL UNIQUE,
+  `ds_rg` VARCHAR(15) NOT NULL UNIQUE,
+  `dt_nascimento` VARCHAR(10) NOT NULL,
+  `ds_telefone` VARCHAR(15) NOT NULL,
+  `nm_cidade` VARCHAR(45) NOT NULL,
+  `nm_estado` VARCHAR(2) NOT NULL,
+  `nm_bairro` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_cliente`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_depto`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_depto` (
+  `id_depto` INT NOT NULL AUTO_INCREMENT,
+  `nm_depto` VARCHAR(30) NOT NULL,
+  PRIMARY KEY (`id_depto`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_funcionario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_funcionario` (
+  `id_funcionario` INT NOT NULL AUTO_INCREMENT,
+  `nm_funcionario` VARCHAR(50) NOT NULL,
+  `dt_nascimento` VARCHAR(10) NOT NULL,
+  `ds_rg` VARCHAR(15) NOT NULL UNIQUE,
+  `ds_cpf` VARCHAR(15) NOT NULL UNIQUE,
+  `ds_telefone` VARCHAR(15) NOT NULL,
+  `ds_email` VARCHAR(100) NOT NULL,
+  `id_depto` INT NOT NULL,
+  `nm_cidade` VARCHAR(45) NOT NULL,
+  `nm_estado` VARCHAR(2) NOT NULL,
+  `nm_bairro` VARCHAR(45) NOT NULL,
+  `nm_rua` VARCHAR(50) NOT NULL,
+  `ds_cep` VARCHAR(15) NOT NULL,
+  `ds_complemento` VARCHAR(50) NULL,
+  PRIMARY KEY (`id_funcionario`),
+  INDEX `depto_id_depto_idx` (`id_depto` ASC),
+  CONSTRAINT `fk_depto_id_depto`
+    FOREIGN KEY (`id_depto`)
+    REFERENCES `SIGMA`.`tb_depto` (`id_depto`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_fornecedores`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_fornecedores` (
+  `id_fornecedor` INT NOT NULL AUTO_INCREMENT,
+  `nm_fornecedor` VARCHAR(50) NOT NULL,
+  `ds_cpf_cnpj` VARCHAR(45) NOT NULL UNIQUE,
+  `nm_cidade` VARCHAR(45) NOT NULL,
+  `nm_estado` VARCHAR(2) NOT NULL,
+  PRIMARY KEY (`id_fornecedor`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_pecas`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_pecas` (
+  `id_pecas` INT NOT NULL AUTO_INCREMENT,
+  `nm_peca` VARCHAR(45) NOT NULL,
+  `ds_peca` VARCHAR(300) NULL,
+  `vl_peca` DECIMAL(15,2) NOT NULL,
+  PRIMARY KEY (`id_pecas`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_estoque`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_estoque` (
+  `id_estoque` INT NOT NULL AUTO_INCREMENT,
+  `id_peca` INT NOT NULL,
+  `id_fornecedor` INT NOT NULL,
+  `nr_quantidade` VARCHAR(10000) NOT NULL,
+  PRIMARY KEY (`id_estoque`),
+  INDEX `fk_peca_id_peca_idx` (`id_peca` ASC),
+  INDEX `fk_fornecedor_id_fornecedor_idx` (`id_fornecedor` ASC),
+  CONSTRAINT `fk_peca_id_peca`
+    FOREIGN KEY (`id_peca`)
+    REFERENCES `SIGMA`.`tb_pecas` (`id_pecas`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_fornecedor_id_fornecedor`
+    FOREIGN KEY (`id_fornecedor`)
+    REFERENCES `SIGMA`.`tb_fornecedores` (`id_fornecedor`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_automoveis`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_automoveis` (
+  `id_automoveis` INT NOT NULL AUTO_INCREMENT,
+  `id_cliente` INT NOT NULL,
+  `ds_placa` VARCHAR(10) NOT NULL UNIQUE,
+  `nm_marca` VARCHAR(45) NOT NULL,
+  `nm_modelo` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_automoveis`),
+  INDEX `fk_cliente_id_cliente_idx` (`id_cliente` ASC),
+  CONSTRAINT `fk_cliente_id_cliente`
+    FOREIGN KEY (`id_cliente`)
+    REFERENCES `SIGMA`.`tb_cliente` (`id_cliente`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_orcamento`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_orcamento` (
+  `id_orcamento` INT NOT NULL AUTO_INCREMENT,
+  `ds_situacao` VARCHAR(200) NOT NULL,
+  `id_funcionario` INT NOT NULL,
+  `vl_valor` DECIMAL(15, 2) NOT NULL,
+  `id_automovel` INT NOT NULL,
+  `id_pecas` INT NOT NULL,
+  PRIMARY KEY (`id_orcamento`),
+  INDEX `fk_funcionario_id_funcionario_idx` (`id_funcionario` ASC),
+  INDEX `fk_automovel_id_automovel_idx` (`id_automovel` ASC),
+  INDEX `fk_pecas_id_pecas_idx` (`id_pecas` ASC),
+  CONSTRAINT `fk_funcionario_id_funcionario`
+    FOREIGN KEY (`id_funcionario`)
+    REFERENCES `SIGMA`.`tb_funcionario` (`id_funcionario`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_automovel_id_automovel`
+    FOREIGN KEY (`id_automovel`)
+    REFERENCES `SIGMA`.`tb_automoveis` (`id_automoveis`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_pecas_id_pecas`
+    FOREIGN KEY (`id_pecas`)
+    REFERENCES `SIGMA`.`tb_pecas` (`id_pecas`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SIGMA`.`tb_servico`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `SIGMA`.`tb_servico` (
+  `id_servico` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `id_cliente` INT NOT NULL,
+  `dt_servico` VARCHAR(10) NOT NULL,
+  `id_orcamento` INT NOT NULL,
+  `ds_servico` VARCHAR(200) NULL,
+ INDEX `fk_cliente_id_cliente_idx` (`id_cliente` ASC),
+  INDEX `fk_orcamento_id_orcamento_idx` (`id_orcamento` ASC),
+CONSTRAINT `fk_cliente_id_cliente1`
+  FOREIGN KEY (`id_cliente`)
+REFERENCES `SIGMA`.`tb_cliente` (`id_cliente`)
+    ON DELETE NO ACTION
+   ON UPDATE NO ACTION,
+ CONSTRAINT `fk_orcamento_id_orcamento`
+  FOREIGN KEY (`id_orcamento`)
+  REFERENCES `SIGMA`.`tb_orcamento` (`id_orcamento`)
+   ON DELETE NO ACTION
+   ON UPDATE NO ACTION);
+
+
+USE `SIGMA` ;
+-- SELECT * FROM tb_depto;
+-- SELECT * FROM tb_funcionario;
+-- SELECT * FROM tb_pecas;
+-- SELECT * FROM tb_cliente;

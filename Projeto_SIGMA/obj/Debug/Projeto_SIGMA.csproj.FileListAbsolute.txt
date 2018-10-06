@@ -1,0 +1,157 @@
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe.config
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.pdb
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csprojAssemblyReference.cache
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frm_principal.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Properties.Resources.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarAutomovel.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFornecedor.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarPecas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmDepartamentos.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFuncionario.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.GenerateResource.cache
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.CoreCompileInputs.cache
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.exe
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.pdb
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastros.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarClientes.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarAutomoveis.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarClientes.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFornecedores.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFuncionarios.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarPecas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmEstoque.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmOrcamento.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmServico.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeCadastro.frmConsultas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\MySql.Data.dll
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.CopyComplete
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmApresentacao.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frmCarregar.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarAutomovel.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarCliente.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFornecedor.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFuncionario.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarPecas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmCadastrarLogin.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmLogin.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarOrcamentos.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarPedidos.resources
+C:\Users\infod32\Desktop\SIGMA v1.9.2 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe.config
+C:\Users\infod32\Desktop\SIGMA v1.9.2 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.exe
+C:\Users\infod32\Desktop\SIGMA v1.9.2 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.pdb
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe.config
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.exe
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.pdb
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.pdb
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\MySql.Data.dll
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\MySql.Data.xml
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csprojResolveAssemblyReference.cache
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frmCarregar.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frm_principal.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Properties.Resources.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmApresentacao.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastros.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeCadastro.frmConsultas.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarAutomovel.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarCliente.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFornecedor.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFuncionario.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarPecas.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarAutomovel.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFornecedor.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarPecas.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmDepartamentos.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFuncionario.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarClientes.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarAutomoveis.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarClientes.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFornecedores.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFuncionarios.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarPecas.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmEstoque.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmCadastrarLogin.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmLogin.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarOrcamentos.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarPedidos.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmOrcamento.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmServico.resources
+C:\Users\infod32\Desktop\SIGMA v1.0.0  Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.GenerateResource.Cache
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe.config
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.pdb
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\MySql.Data.dll
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csprojAssemblyReference.cache
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frmCarregar.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frm_principal.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Properties.Resources.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmApresentacao.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastros.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeCadastro.frmConsultas.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarAutomovel.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarCliente.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFornecedor.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFuncionario.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarPecas.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarAutomovel.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFornecedor.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarPecas.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmDepartamentos.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFuncionario.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarClientes.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarAutomoveis.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarClientes.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFornecedores.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFuncionarios.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarPecas.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmEstoque.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmCadastrarLogin.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmLogin.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarOrcamentos.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarPedidos.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmOrcamento.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmServico.resources
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.GenerateResource.cache
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.CoreCompileInputs.cache
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.CopyComplete
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.exe
+C:\Users\joaof\Desktop\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.pdb
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe.config
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.exe
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\bin\Debug\Projeto_SIGMA.pdb
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csprojAssemblyReference.cache
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frmCarregar.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.frm_principal.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Properties.Resources.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmApresentacao.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastros.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeCadastro.frmConsultas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarAutomovel.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarCliente.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFornecedor.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarFuncionario.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeAlterar.frmAlterarPecas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarAutomovel.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFornecedor.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarPecas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmDepartamentos.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarFuncionario.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmCadastrarClientes.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarAutomoveis.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarClientes.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFornecedores.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarFuncionarios.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.frmListarPecas.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmEstoque.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmCadastrarLogin.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDeLogin.frmLogin.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarOrcamentos.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmListarPedidos.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmOrcamento.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.Telas.TelasDePedidos.frmServico.resources
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.GenerateResource.cache
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.CoreCompileInputs.cache
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.csproj.CopyComplete
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.exe
+C:\Users\joaof\Desktop\TCC\SIGMA\SIGMA 1.0 Beta\SIGMA 1.0 Beta\Projeto_SIGMA\Projeto_SIGMA\obj\Debug\Projeto_SIGMA.pdb
