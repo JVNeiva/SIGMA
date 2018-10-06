@@ -1,5 +1,7 @@
 ﻿using Projeto_SIGMA.Classes.ClassesLogin;
+using Projeto_SIGMA.Telas;
 using Projeto_SIGMA.Telas.TelasDeLogin;
+using Projeto_SIGMA.Telas.TelasDePedidos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,22 +30,22 @@ namespace Projeto_SIGMA
             {
                 if (UserSession.UsuarioLogado.PermissaoCadastro == false)
                 {
-                    btnCadastros.Enabled = false;
+                    cadastroToolStripMenuItem.Enabled = false;
                 }
 
                 if (UserSession.UsuarioLogado.PermissaoConsulta == false)
                 {
-                    btnConsultas.Enabled = false;
+                    consultaToolStripMenuItem.Enabled = false;
                 }
 
                 if (UserSession.UsuarioLogado.PermissaoOrcamento == false)
                 {
-                    btnOrcamento.Enabled = false;
+                    orçamentoToolStripMenuItem.Enabled = false;
                 }
 
                 if (UserSession.UsuarioLogado.PermissaoPedido == false)
                 {
-                    btnPedido.Enabled = false;
+                    serviçoToolStripMenuItem.Enabled = false;
                 }
             }
         }
@@ -56,48 +58,6 @@ namespace Projeto_SIGMA
             pnlCentro.Controls.Add(control);
         }
         
-
-        private void btnCadastros_Click(object sender, EventArgs e)
-        {
-            Telas.frmCadastros tela = new Telas.frmCadastros();
-            tela.Show();
-            this.Hide();
-        }
-
-        private void btnConsultas_Click(object sender, EventArgs e)
-        {
-            Telas.TelasDeCadastro.frmConsultas tela = new Telas.TelasDeCadastro.frmConsultas();
-            tela.Show();
-            this.Hide();
-        }
-
-        private void btnOrcamento_Click(object sender, EventArgs e)
-        {
-            Telas.TelasDePedidos.frmOrcamento tela = new Telas.TelasDePedidos.frmOrcamento();
-            OpenScreen(tela);          
-        }
-
-        private void btnPedido_Click(object sender, EventArgs e)
-        {
-            Telas.TelasDePedidos.frmServico tela = new Telas.TelasDePedidos.frmServico();
-            OpenScreen(tela);
-
-         
-        }
-
-        private void btnEstoque_Click(object sender, EventArgs e)
-        {
-            Telas.TelasDePedidos.frmEstoque tela = new Telas.TelasDePedidos.frmEstoque();
-            OpenScreen(tela);       
-        }
-
-        private void btnDepto_Click(object sender, EventArgs e)
-        {
-            Telas.frmDepartamentos tela = new Telas.frmDepartamentos();
-            OpenScreen(tela);
-
-        }
-
         private void pnlCentro_Paint(object sender, PaintEventArgs e)
         {
 
@@ -108,7 +68,97 @@ namespace Projeto_SIGMA
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastrarClientes tela = new frmCadastrarClientes();
+            OpenScreen(tela);
+        }
+
+        private void funcionárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastrarFuncionario tela = new frmCadastrarFuncionario();
+            OpenScreen(tela);
+        }
+
+        private void fornecedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastrarFornecedor tela = new frmCadastrarFornecedor();
+            OpenScreen(tela);
+        }
+
+        private void autoMóvelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastrarAutomovel tela = new frmCadastrarAutomovel();
+            OpenScreen(tela);
+        }
+
+        private void peçasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastrarPecas tela = new frmCadastrarPecas();
+            OpenScreen(tela);
+        }
+
+        private void clientesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmListarClientes tela = new frmListarClientes();
+            OpenScreen(tela);
+        }
+
+        private void funcionáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListarFuncionarios tela = new frmListarFuncionarios();
+            OpenScreen(tela);
+        }
+
+        private void fornecedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListarFornecedores tela = new frmListarFornecedores();
+            OpenScreen(tela);
+        }
+
+        private void peçasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmListarPecas tela = new frmListarPecas();
+            OpenScreen(tela);
+        }
+
+        private void autoMóveisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListarAutomoveis tela = new frmListarAutomoveis();
+            OpenScreen(tela);
+        }
+
+        private void orçamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOrcamento tela = new frmOrcamento();
+            OpenScreen(tela);
+        }
+
+        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmServico tela = new frmServico();
+            OpenScreen(tela);
+        }
+
+        private void estoqueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEstoque tela = new frmEstoque();
+            OpenScreen(tela);
+        }
+
+        private void departamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDepartamentos tela = new frmDepartamentos();
+            OpenScreen(tela);
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmApresentacao tela = new frmApresentacao();
+            OpenScreen(tela);
+        }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmLogin tela = new frmLogin();
             tela.Show();
